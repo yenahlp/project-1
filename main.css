@@ -9,8 +9,8 @@
 }
 
 .custom-shape-divider-bottom-1709420149 {
-  position: absolute;
-  bottom: -135px;
+  position: relative;
+  bottom: -50px;
   left: 0;
   width: 100%;
   overflow: hidden;
@@ -63,5 +63,18 @@ body {
 .navbar-custom .dropdown-toggle:focus {
     background-color: var(--accent);
     color: var(--secondary);
+}
+
+body {
+    background: var(--secondary);
+}
+
+.after-divider {
+    background-color: var(--primary);
+    color: var(--secondary);
+}
+
+.before-divider {
+    padding-bottom: 150px;
 }
 
