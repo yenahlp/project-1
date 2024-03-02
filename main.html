@@ -1,6 +1,7 @@
 <!-- Yenah Park | yenahlp | hi toph -->
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -11,30 +12,32 @@
     <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
         crossorigin="anonymous"></script>
-<!-- when you do the script tag, YOU HAVE TO ADD DEFER-->
+    <!-- when you do the script tag, YOU HAVE TO ADD DEFER-->
 </head>
+
 <body>
     <header>
         <nav class="navbar navbar-expand-lg bg-body-tertiary">
             <div class="container-fluid">
                 <a class="navbar-brand" href="#">Navbar</a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
-                    aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
+                    aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarNavDropdown">
                     <ul class="navbar-nav">
                         <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                            <a class="nav-link active" aria-current="#home" href="#">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="about.html">About</a>
+                            <a class="nav-link" href="#about">About</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="portfolio.html">Portfolio</a>
+                            <a class="nav-link" href="#portfolio">Portfolio</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="contact.html">Contact</a>
+                            <a class="nav-link" href="#contact">Contact</a>
                         </li>
                         <!-- <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
@@ -52,15 +55,100 @@
             </div>
         </nav>
     </header>
-    
-    <h1>TEST</h1>
 
-    <footer>
+<section class="home-container" id="home">
+    <div>
+        STUFF HERE
+    </div>
+</section>
+
+    <!-- fun intro to me yay -->
+    <main>
+        <h1 style="margin-top: 10vw; margin-left: 10vw;">Hi, my name is Yenah!</h1>
+        <br>
+        <h3 style="margin-left: 10vw;">I'm a marketing strategist based in UT, USA.</h3>
+    </main>
+
+    <br><br><br><br>
+
+    <h6>these are stock photos</h6>
+    <!-- this is my carousel !-->
+    <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="./photos/lauter.webp" class="d-block w-100" alt="lauterbrunnen">
+            </div>
+            <div class="carousel-item">
+                <img src="./photos/paris.jpeg" class="d-block w-100" alt="paris">
+            </div>
+            <div class="carousel-item">
+                <img src="./photos/spain.jpeg" class="d-block w-100" alt="barcelona">
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+
+    <section>
+        <h1>Work Experience</h1>
+        <h4>BYU Marriott BCC blah blah</h4>
+        <h4>BYU Marriott SLAC</h4>
+        <h4>BYUtv Sports</h4>
+        <h4>Stutor</h4>
+        <h4>House of Jade</h4>
+        <h4>Best Foods yadda</h4>
+    </section>
+
+    <section>
+        <h3>graphic design stuff</h3>
+        <!--photos here yahoo-->
+        <h3>projects from byub, marriott, etc</h3>
+
+        <h3>photos i've taken</h3>
+        <h3>yadda yadda</h3>
+    </section>
+
+    <section>
+        <h3>personal</h3>
+        <h4>things i like: pickleball, tennis, board & card games, typing</h4>
+        <h4>places I've traveled: korea, switz, france, spain, caribbean, etc</h4>
+        <h4>fav musical artists: tyler, little simz, laufey, etc</h4>
+        <h4>people i like: mom & dad, hanah, senah, toph</h4>
+        <!-- i think this is gonna be more of a personal page vs a portfolio-->
+
+    </section>
+
+
+    <br><br><br>
+
+    <section class="about-container" id="about">
+        <div>
+            HELLO THIS IS MY ABOUT
+        </div>
+    </section>
+
+
+    <section class="portfolio-container" id="portfolio">
+        <div>
+            THIS IS MY PORTFOLIO
+        </div>
+    </section>
+
+    <footer style="margin: 15px;">
         <button type="button" class="btn btn-primary">Contact Me!</button>
         <a href="https://www.linkedin.com/in/yenah-park">LinkedIn</a>
         <a href="https://www.instagram.com/yenahpark/">Instagram</a>
         <a href="https://open.spotify.com/user/yenahp?si=8e218f16eb254d85">Spotify</a>
     </footer>
-    
+
 </body>
+
 </html>
