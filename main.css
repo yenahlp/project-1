@@ -1,3 +1,13 @@
+:root {
+   --primary: #4B1E3D;
+   --secondary: #FFFFFF;
+   --accent: #CDB6BE
+}
+
+.btn-primary {
+    background-color: var(--primary) !important;
+}
+
 .custom-shape-divider-bottom-1709420149 {
   position: absolute;
   bottom: -135px;
@@ -18,3 +28,40 @@
 .custom-shape-divider-bottom-1709420149 .shape-fill {
   fill: #4B1E3D;
 }
+
+body {
+    background-color: var(--secondary);
+}
+
+/* navbar CSS is AI generated */
+.navbar-custom {
+    background-color: var(--primary);
+    color: var(--secondary);
+}
+
+.navbar-custom .navbar-toggler-icon {
+    background-color: var(--accent);
+    color: var(--secondary);
+}
+
+.navbar-custom .navbar-brand,
+.navbar-custom .nav-link {
+    background-color: var(--accent);
+    color: var(--secondary);
+}
+
+.navbar-custom .dropdown-toggle {
+    background-color: var(--accent);
+    color: var(--secondary);
+}
+
+.navbar-custom .dropdown-toggle:hover {
+    background-color: var(--accent);
+    color: var(--secondary);
+}
+
+.navbar-custom .dropdown-toggle:focus {
+    background-color: var(--accent);
+    color: var(--secondary);
+}
+
