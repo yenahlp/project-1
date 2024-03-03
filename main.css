@@ -4,13 +4,21 @@
    --accent: #CDB6BE
 }
 
+.questrial-regular {
+    font-family: "Questrial", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
 .btn-primary {
     background-color: var(--primary) !important;
+    border-color: var(--accent) !important;
+    color: var(--secondary) !important;
 }
 
 .custom-shape-divider-bottom-1709420149 {
   position: relative;
-  bottom: -50px;
+  bottom: -200px;
   left: 0;
   width: 100%;
   overflow: hidden;
@@ -78,3 +86,16 @@ body {
     padding-bottom: 150px;
 }
 
+.card {
+    text-align: center;
+    background-color: var(--accent);
+    color: var(--primary);
+}
+
+.card-text {
+    text-align: left;
+}
+
+.iframe {
+    text-align: center;
+}
